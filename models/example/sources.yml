@@ -1,0 +1,13 @@
+sources:
+  - name: meta
+    database: test
+    schema: public_meta
+    tables:
+      - name: unpivot_rules
+      - name: mapping_rules
+  - name: sample
+    database: test
+    schema: public
+    tables:
+      - name: src_test_1
+        

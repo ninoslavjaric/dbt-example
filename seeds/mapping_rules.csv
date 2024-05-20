@@ -1,0 +1,17 @@
+source_database,source_schema,source_table,source_mapping,map_column
+test,public_stg,sample_data,"to_timestamp_ntz(trim(REGEXP_SUBSTR(_ab_source_file_url, '_P(\\d+)'), '_P'), 'MMDDYYYY')",fileDate
+test,public_stg,sample_data,"to_timestamp_ntz(trim(REGEXP_SUBSTR(_ab_source_file_url, '_R(\\d+)'), '_R'), 'MMDDYYYY')",filEendDate
+test,public_stg,sample_data,"to_time(trim( regexp_substr(_AB_SOURCE_FILE_URL, 'T(\\d{6})'), 'T'), 'HH24MISS')",filetime
+test,public_stg,sample_data,account_group,account_group
+test,public_stg,sample_data,account_id,account_id
+test,public_stg,sample_data,amount,amount
+test,public_stg,sample_data,asset_sub_type,asset_subtype
+test,public_stg,sample_data,asset_type,asset_type
+test,public_stg,sample_data,base_market_value,base_market_value
+test,public_stg,sample_data,currency,currency
+test,public_stg,sample_data,description,description
+test,public_stg,sample_data,"""HT ACCOUNTS:NODE_ID""",account
+test,public_stg,sample_data,position_id,position_id
+test,public_stg,sample_data,security_id,security_id
+test,public_stg,sample_data,"trim(measure, 'STATISTICS:')",measure
+test,public_stg,sample_data,value,value

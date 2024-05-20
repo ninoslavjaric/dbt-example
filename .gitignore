@@ -1,0 +1,9 @@
+
+target/
+dbt_packages/
+logs/
+**/**.iml
+venv
+.vscode
+.idea
+.venv

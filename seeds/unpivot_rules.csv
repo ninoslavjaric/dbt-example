@@ -1,0 +1,2 @@
+source_database,source_schema,source_table,name_column,value_column,rule,cast
+test,public,src_test_1,measure,value,"lower(column_name) like 'statistics:%'","number(38, 6)"
